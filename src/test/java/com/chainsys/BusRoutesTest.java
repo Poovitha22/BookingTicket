@@ -8,7 +8,9 @@ public class BusRoutesTest {
 	@Test
 	public void testcase1() {
 		BusRoutes.addBusRoutes();
-		BusRoutes.addRoute(3,"chennai to theni");
+		BusRoutes.addRoute(6,"chennai to nellai");
+		BusRoutes.displayRoutes();
+		
       }
 	
 }
