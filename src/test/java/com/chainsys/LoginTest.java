@@ -6,6 +6,8 @@ import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
+import com.chainsys.user.Login;
+
 public class LoginTest {
 
 	@Test
@@ -25,7 +27,7 @@ public class LoginTest {
 	}
 	@Test
 	public void testInValidemailvalidpassword() {   //invalid email and valid password......
-		String email="venkat@gmail.com";
+		String email="gmail.com";
         String password="Pass@1234";
 		boolean actual=Login.login(email, password);
 		assertFalse(actual);
